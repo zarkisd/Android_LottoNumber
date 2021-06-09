@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">LottoNumber</string>
+    <string name="tv_id">ID</string>
+    <string name="tv_pw">PW</string>
+    <string name="btn_login">로그인</string>
 </resources>
