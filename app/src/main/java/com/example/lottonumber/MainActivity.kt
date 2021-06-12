@@ -30,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                 toast("성공!")
                 start<SubActivity>()
 
+
             }
             else {
                 toast("아이디가 없어요")
