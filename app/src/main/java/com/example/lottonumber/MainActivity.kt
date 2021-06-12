@@ -7,6 +7,8 @@ import android.text.Editable
 import android.widget.TextView
 import android.widget.Toast
 import com.example.lottonumber.databinding.ActivityMainBinding
+import splitties.activities.start
+import splitties.toast.toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,9 +24,15 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.btnLogin.setOnClickListener {
+            // 나중에 조건을 sqllite나 db에서 가져와서 확인하는걸로 바꾸기
             if (binding.tvId.text.toString() == "aa" && binding.tvPw.text.toString() == "aaa") {
 
-                Toast.makeText(this, "aaaaa", Toast.LENGTH_SHORT).show()
+                toast("성공!")
+                start<SubActivity>()
+
+            }
+            else {
+                toast("아이디가 없어요")
             }
 
         }
