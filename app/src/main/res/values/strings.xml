@@ -3,4 +3,8 @@
     <string name="tv_id">ID</string>
     <string name="tv_pw">PW</string>
     <string name="btn_login">로그인</string>
+    <string name="title_activity_sub">MainActivity</string>
+    <string name="title_home">번호 뽑기</string>
+    <string name="title_dashboard">역대 1등 번호</string>
+    <string name="title_notifications">나의 번호</string>
 </resources>
