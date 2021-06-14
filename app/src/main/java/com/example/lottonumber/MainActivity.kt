@@ -29,10 +29,10 @@ class MainActivity : AppCompatActivity() {
 
                 toast("성공!")
                 start<SubActivity>()
+                //나중에 정보 넘겨주기
+                finish()
 
-
-            }
-            else {
+            } else {
                 toast("아이디가 없어요")
             }
 

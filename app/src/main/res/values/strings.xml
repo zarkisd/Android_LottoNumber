@@ -7,4 +7,6 @@
     <string name="title_home">번호 뽑기</string>
     <string name="title_dashboard">역대 1등 번호</string>
     <string name="title_notifications">나의 번호</string>
+    <string name="start">번호를 뽑아보세요!!</string>
+    <string name="tv_lotto">이번 로또 번호는??</string>
 </resources>
