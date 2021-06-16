@@ -9,4 +9,16 @@
     <string name="title_notifications">나의 번호</string>
     <string name="start">번호를 뽑아보세요!!</string>
     <string name="tv_lotto">이번 로또 번호는??</string>
+
+    <string-array name="number_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 </resources>
